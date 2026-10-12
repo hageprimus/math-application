@@ -38,5 +38,16 @@ public class MathApp {
         System.out.println("Absolute value of input: " + absolute);
 
         //Question 7:
+        double random = Math.random();
+        System.out.println("Random number: " + random);
+
+        //Question 8:
+        int givenDays = 24;
+        int minutesInDay = 1440;
+        int millisecondsInMinute = 60000;
+        int finalMinutes = givenDays * minutesInDay;
+        int finalMilliseconds = finalMinutes * millisecondsInMinute;
+        System.out.println("The number of minutes in 24 days is: " + finalMinutes);
+        System.out.println("The number of milliseconds in 24 days is: " + finalMilliseconds);
     }
 }
